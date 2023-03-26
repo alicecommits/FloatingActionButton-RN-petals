@@ -18,7 +18,7 @@ export default function generatePetalsCoord(
         // SYMETRY ALONG Y + 0° + 180° FILLED -------------------------------------
         if (iconQty % 2 === 0) {
             const quadrantIntervals = (iconQty / 2) + 1;
-            // e.g. Math.PI/(2*3) => the angle will progress by +30°
+            // e.g. Math.PI/(1*3) => the angle will progress by +60°
             // for (imo) good looking values, check the README
             const a = (Math.PI/(PISectorDivider*quadrantIntervals));
 
