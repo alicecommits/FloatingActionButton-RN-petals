@@ -19,7 +19,7 @@ const FloatingButton = () => {
   // Y AXIS INI -------------------------------------------
   //tbd the smartest way to guarantee position on Y axis
   const windowHeight = Dimensions.get('window').height;
-  // arbitrary, looks not to bad
+  // arbitrary, looks not too bad
   const default_height_offset = 260; 
   const centerY = windowHeight - default_height_offset
 
