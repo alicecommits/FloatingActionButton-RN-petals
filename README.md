@@ -55,7 +55,7 @@ Hereafter is a table containing values tried out, with a screenshot showing how 
 ## **Contributions welcome**
 - Don't hesitate to experiment and give your feedback!
 - If you have ideas on how to refactor the code, make it more compact e.g. for Animated.timing and Animated.View generating, please don't hesitate to contribute to this repo and/or the original one!
-- You can also play with `Animated.timing duration` - I set `500` (ms) as default), or even modify a bit the `Animated.timing` sequence itself, e.g. to make the petals bloom from right to left, one after the other!
+- You can also play with `Animated.timing duration` - I set `500` (ms) as default, or even modify a bit the `Animated.timing` sequence itself, e.g. to make the petals bloom from right to left, one after the other!
 
 - Link towards FontAwesome names:
 https://github.com/oblador/react-native-vector-icons/blob/master/glyphmaps/FontAwesome.json

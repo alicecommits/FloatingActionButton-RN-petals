@@ -23,10 +23,7 @@ const FloatingButton = () => {
   const default_height_offset = 260; 
   const centerY = windowHeight - default_height_offset
 
-
-  // these are just examples from FontAwesome, with 5 icons.
-  // Link to FontAwesome names in the README
-  // icons to specify in the trigo direction
+  // to specify in the trigo direction
   const iconNamesArrDemo = [
     "pencil-square-o", 
     "map-marker", 
@@ -130,6 +127,15 @@ const FloatingButton = () => {
     
   }
 
+  // to change + to - icon based on if the menu is expanded or not.
+  function plusOrMinus(pop) {
+    if (pop) {
+      return "minus"
+    } else {
+      return "plus"
+    }
+  };
+
   // Animated Views - TODO way of generating them all auto -------------
   return(
     <View style={{
@@ -186,10 +192,13 @@ const FloatingButton = () => {
           pop === false ? popOut() : popIn();
         }}
       >
-        <Icon name="plus" size={25} color="#FFFF" />
+        <Icon name={plusOrMinus(pop)}
+        size={styles.iconscontent.size} 
+        color={styles.iconscontent.textColor} />
       </TouchableOpacity>
     
     </View>
   )
+
 }
 export default FloatingButton;
