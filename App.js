@@ -44,6 +44,7 @@ import * as Location from 'expo-location';
 const Stack = createNativeStackNavigator();
 
 export default function App() {
+
   return (
   <NavigationContainer>
     <Stack.Navigator 
@@ -63,13 +64,7 @@ export default function App() {
       component={HomeScreen} 
       options={{ 
         headerTitle: (props) => <LogoTitle {...props} />,
-        // Add a placeholder button without the `onPress` to avoid flicker
-        headerRight: () => (
-          <Button
-            title="Update count"
-            color="#7393B3"
-            />
-        )}} 
+      }} 
       />
     </Stack.Navigator>
   </NavigationContainer>

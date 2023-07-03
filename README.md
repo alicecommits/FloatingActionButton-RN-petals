@@ -76,7 +76,7 @@ An animated/ expandable floating action button UI built using react native..
 Screen -
 
 <div>
-<img src="thumbnail.png" alt="screen1" width="800"/>
+<img src="images/thumbnail.png" alt="screen1" width="800"/>
 </div>
 
 ## Tech Stack -
