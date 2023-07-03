@@ -24,7 +24,7 @@ const FloatingButton = () => {
   // Y AXIS INI -------------------------------------------  
   // > Y for when absolutely positioning (absolutely) on top of map view:
   // - no offset (0) 
-  // > Y for "bare" use: 
+  // > old value Y for "bare" use (now inactive): 
   //const windowHeight = Dimensions.get('window').height;
   //const default_height_offset = 260; 
   //const centerY = windowHeight - default_height_offset
