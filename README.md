@@ -42,7 +42,7 @@ I had a bit of fun trying out different values below, that render the petal icon
 - `const centerY = Dimensions.get('window').height - default_height_offset;` 
 
 It renders like this:  
-<br><img src="assets/images/petals_startingicon-plus_centered.png" alt="'+' button, centered" title="'+' button, centered"  width="50" alignSelf="center" alignSelf="center"><br>
+<br><img src="assets/images/petals_startingicon-plus_centered.png" alignSelf="center" alt="'+' button, centered" title="'+' button, centered" width="50" ><br>
 
 
 Hereafter is a table containing values tried out, with a screenshot showing how they render (on an Android device). Don't hesitate to feed with your own examples if you want to!
