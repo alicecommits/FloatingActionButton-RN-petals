@@ -3,15 +3,20 @@
 ## **Introduction**
 Floating buttons that pop out like petals of a flower bloom... after pressing a bottom-central '+' button!
 
+<p align="center">
 <img
-  src="petals_intro_pic.png"
-  alt="Example with 5 icons, cute leaves, cute sun!"
-  title="Example with 5 icons, cute leaves, cute sun!"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  src="petals_intro_pic.png" width="300" alignSelf="center">
+ </p>
 
 Derived from shevon14's repo: https://github.com/shevon14/FloatingActionButton-RN/ (hence the fork).
 
 You can set the number of icons (petals) you want, and you can style them in styles.
+
+## **TODOs**
+- rework the styles to have buttons aligned correctly when overlaid on top of a view
+- offer classic use cases: overlay on custom view, overlay on (almost) full-screen map
+- comment styling in the scenario of "Bare" use (which is unlikely)
+- resize all images of the README as done for the petals intro pic above
 
 ## **Motivations**
 I started working on a React Native app project, where all I need is:
