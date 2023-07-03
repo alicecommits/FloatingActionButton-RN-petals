@@ -8,20 +8,27 @@ Dimensions } from "react-native";
 import Icon from "react-native-vector-icons/FontAwesome";
 
 import generatePetalsCoord from "./PetalsCalc";
-import styles from "../styles/ButtonStyles";
+import styles from "../styles/component.styles/ButtonStyles";
 
 const FloatingButton = () => {
 
   // X AXIS INI -------------------------------------------
   const windowWidth = Dimensions.get('window').width;
-  const centerX = 0.5*(windowWidth - styles.petals.width);
+  // Note: offsets interfer with Screen <View> containers styling
+  // > X for when absolutely positioning (absolutely) on top of map view:
+  // - -0.5*styles.petals.width 
+  // > X for "bare" use: 
+  // 0.5*(windowWidth - styles.petals.width) is a good value
+  const centerX = -0.5*styles.petals.width //0.5*(windowWidth - styles.petals.width);
   
-  // Y AXIS INI -------------------------------------------
-  //tbd the smartest way to guarantee position on Y axis
-  const windowHeight = Dimensions.get('window').height;
-  // arbitrary, looks not too bad
-  const default_height_offset = 260; 
-  const centerY = windowHeight - default_height_offset
+  // Y AXIS INI -------------------------------------------  
+  // > Y for when absolutely positioning (absolutely) on top of map view:
+  // - no offset (0) 
+  // > Y for "bare" use: 
+  //const windowHeight = Dimensions.get('window').height;
+  //const default_height_offset = 260; 
+  //const centerY = windowHeight - default_height_offset
+  const centerY = 0
 
   // to specify in the trigo direction
   const iconNamesArrDemo = [

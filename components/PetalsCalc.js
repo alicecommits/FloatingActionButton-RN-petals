@@ -1,5 +1,5 @@
 // #! /usr/bin/env node
-const DEBUG = false; // to turn true to debug
+export const DEBUG = false; // to turn true to debug
 
 // export default to remove when debugging with nodejs
 // and first line to uncomment
@@ -87,7 +87,7 @@ export default function generatePetalsCoord(
 };
 
 if (DEBUG) {
-    const iconNamesArrTest = ["example1", "example2", "example3", "example4", "example5", "example6", "example7"];
+    const iconNamesArrTest = ["naldo", "biscuit", "star", "apollo", "petra", "oliv", "harvey"];
     const res = generatePetalsCoord(0, 0, 100, 2, 7, iconNamesArrTest);
     console.log(res);
 }
