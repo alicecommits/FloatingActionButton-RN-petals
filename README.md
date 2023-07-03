@@ -72,9 +72,12 @@ src="assets/images/petals_startingicon-plus_centered.png" width="50" alt="'+' bu
 | 4 | 60 x 60 | 80-150 | 1 | A perfect semi-flower! Towards 150px, almost reach end of screen width. <p align="center"><br><img src="assets/images/petals_iconqty-4_dist-150px_PIby3-start0deg.png" alt="Example with 4 icons, 150px distance, pi/3 intervals, no offset (1st icon at 0°)" title="Example with 4 icons, 150px distance, pi/3 intervals, no offset (1st icon at 0°)"  width="50" ><br></p> 80-100px is more compact, 100 a good compromise between breathy design and compactness. <p align="center"><br><img src="assets/images/petals_iconqty-4_dist-100px_PIby3-start0deg.png" alt="Example with 4 icons, 100px distance, pi/3 intervals, no offset (1st icon at 0°)" title="Example with 4 icons, 100px distance, pi/3 intervals, no offset (1st icon at 0°)"  width="50" ><br></p> |
 | 5 | 60 x 60 | 85 | 2 | 85 px makes icons close enough, good compromise between clarity and compactness. <p align="center"><br><img src="assets/images/petals_iconqty-5_dist-85px_PIby4.png" alt="Example with 5 icons, 85px, pi/4 intervals" title="Example with 5 icons, 85px, pi/4 intervals"  width="50" ><br></p> |
 | *TBA* | *TBA* | *TBA* | *TBA* | *Don't hesitate to complete here in the README with your own observations!* |
-</summary>
 
-## **Contributions welcome**
+</details>
+
+<br>
+
+### **Contributions welcome**
 - Don't hesitate to experiment and give your feedback!
 - If you have ideas on how to refactor the code, make it more compact e.g. for Animated.timing and Animated.View generating, please don't hesitate to contribute to this repo and/or the original one!
 - You can also play with `Animated.timing duration` - I set `500` (ms) as default, or even modify a bit the `Animated.timing` sequence itself, e.g. to make the petals bloom from right to left, one after the other!
