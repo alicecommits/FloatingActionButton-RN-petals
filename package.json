@@ -1,7 +1,9 @@
 {
-  "name": "src",
+  "name": "rn-template-front",
+  "description": "A basic React Native template app to kick off a project of tracking app (with a map as the main screen) '+' starting icon",
   "version": "1.0.0",
   "main": "App.js",
+  "author": "alicecommits",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
